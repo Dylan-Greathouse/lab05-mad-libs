@@ -14,11 +14,11 @@ const bodyPart = document.getElementById('body-part');
 const sense = document.getElementById('sense');
 const verb = document.getElementById('verb');
 const timeOfDay = document.getElementById('time-of-day');
-console.log('hello world!')
+
 
 
 
 //event listeners
 btn.addEventListener('click', ()=>{
-    console.log('you click a button')
+
 });
