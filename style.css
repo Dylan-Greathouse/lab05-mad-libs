@@ -1,23 +1,36 @@
 body {
-    background-image: url(./assets/Capture.PNG);
-    background-repeat: no-repeat;
-    background-size: cover;
+   
+}
+
+img {
+position: absolute;
+top: 0;
+left: 43px;
+width: 100%;
+z-index: auto;
+
 }
 
 #poem {
     position: absolute;
-    bottom: 0px;
-    background-color: rgba(white, white, white, 1)
+    bottom: 200px;
+    left: calc(50% - 150px);
+    width: 300px;
+    margin: auto;
+    background-color: rgba(207, 205, 205, 0.814);
+    text-align: center;
+    z-index: 2;
 }
 
 #title {
     text-align: center;
     position: relative;
     top: 0px;
+    z-index: 2;
 }
 
-/* #inputs {
-    display: flex;
-    flex-direction: column;
+ #inputs {
+     position: absolute;
+    z-index: 2;
     
-} */
+} 
