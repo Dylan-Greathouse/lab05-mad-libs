@@ -5,7 +5,7 @@ const bodyPartInput = document.getElementById('body-part-input');
 const senseInput = document.getElementById('sense-input');
 const verbInput = document.getElementById('verb-input');
 const timeOfDayInput = document.getElementById('time-of-day-input');
-const btn = document.getElementById('btn')
+const carrot = document.getElementById('carrot');
 
 //madlibs
 const food = document.getElementById('food');
@@ -19,6 +19,11 @@ const timeOfDay = document.getElementById('time-of-day');
 
 
 //event listeners
-btn.addEventListener('click', ()=>{
-
+carrot.addEventListener('click', ()=>{
+    food.textContent = foodInput.value;
+    adjective.textContent = adjectiveInput.value;
+    bodyPart.textContent = bodyPartInput.value;
+    sense.textContent = senseInput.value;
+    verb.textContent = verbInput.value;
+    timeOfDay.textContent = timeOfDayInput.value;
 });

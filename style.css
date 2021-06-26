@@ -2,9 +2,17 @@ body {
    
 }
 
-img {
+html {
+    font-family: 'Kirang Haerang', cursive;
+}
+
+button {
+    
+}
+
+#background {
 position: absolute;
-top: 0;
+top: 20px;
 left: 43px;
 width: 100%;
 z-index: auto;
@@ -20,6 +28,7 @@ z-index: auto;
     background-color: rgba(207, 205, 205, 0.814);
     text-align: center;
     z-index: 2;
+    font-size: 21px;
 }
 
 #title {
@@ -27,6 +36,8 @@ z-index: auto;
     position: relative;
     top: 0px;
     z-index: 2;
+    color:orangered;
+    
 }
 
  #inputs {
